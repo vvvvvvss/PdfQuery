@@ -7,3 +7,5 @@ Later we can load any pdf using PyMuPDFLoader() function.
 On loading the pdf, the text in it is split into smaller chucks making it easier for the machine to comprehend.
 Next, we use Hugging Face Transformers for the language model and Sentence Transformers to generate embeddings for your text chunks. 
 Then, we create a RetrievalQA chain to query the documents. RetrievalQA chain combines retrieval with the LLM to provide answers to your questions.
+
+![image](https://github.com/user-attachments/assets/a0313cee-e4c4-49f6-b8e3-879295cde33e)
